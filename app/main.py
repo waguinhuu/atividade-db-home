@@ -58,7 +58,7 @@ def main():
                     print("Usuario não encontrado.")
 
             case '4':
-                email_usuario1 = input("Informe o e-mail do usuario: ")
+                email_usuario = input("Informe o e-mail do usuario: ")
                 usuario = repository.pesquisar_usuario_por_email(email_usuario)
 
                 if usuario:
